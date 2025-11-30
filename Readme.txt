@@ -15,7 +15,7 @@ flutter run -d macos
 
 
 
-git clone https://github.com/tradingapps/neoscalp-macos.git
+git clone https://github.com/sharmayuvraj/flutter-kotak-scalp.git
 cd neoscalp-macos
 flutter build macos --release
 open build/macos/Build/Products/Release/NeoScalp\ Pro.app
