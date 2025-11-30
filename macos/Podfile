@@ -1,0 +1,12 @@
+# Podfile
+platform :osx, '10.14'
+
+def flutter_install_all_ios_pods
+end
+
+target 'Runner' do
+  use_frameworks!
+  use_modular_headers!
+
+  flutter_install_all_macos_pods File.dirname(File.realpath(__FILE__))
+end
